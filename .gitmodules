@@ -1,3 +1,6 @@
 [submodule "External/polyscope"]
 	path = External/polyscope
 	url = https://github.com/nmwsharp/polyscope.git
+[submodule "External/folyscope"]
+	path = External/folyscope
+	url = https://github.com/dunyazad/folyscope.git

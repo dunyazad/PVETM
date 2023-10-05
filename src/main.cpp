@@ -190,6 +190,14 @@ int main()
 
 	polyscope::registerSurfaceMesh("triangle", vertices, indices);
 
+	polyscope::registerSurfaceMesh("line", vector<V3>{ {0.0f, 0.0f, 0.0f}, { 10.0f, 0.0f, 0.0f }, { 5.0f, 7.5f, 0.0f } }, vector<vector<int>>{ {0, 1, 2} });
+
+	ImGuiIO& io = ImGui::GetIO();
+
+	if (io.KeyCtrl && polyscope::render::engine->isKeyPressed('s')) {
+		cout << "test" << endl;
+	}
+
 	polyscope::show();
 
 	return 0;
