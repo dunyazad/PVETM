@@ -1,0 +1,3 @@
+[submodule "External/polyscope"]
+	path = External/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
